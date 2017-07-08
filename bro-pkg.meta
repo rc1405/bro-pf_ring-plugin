@@ -2,8 +2,7 @@
 description = Packet source plugin that provides native PF_RING support.
 tags = packet source, plugin, pf_ring, bro plugin
 plugin_dir = build
-script_dir = scripts
 build_command = ./configure --bro-dist=%(bro_dist)s && make
 test_command = cd tests && btest -d
 depends =
-  bro >= 2.5.0
+  bro >=2.5.0
